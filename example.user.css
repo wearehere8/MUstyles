@@ -1,11 +1,14 @@
 /* ==UserStyle==
-@name           T
-@namespace      T1
-@version        1.0.0
-@license        unlicense
+@name           Example name
+@namespace      example id name
+@version        0.0.1
+@license        MIT
+@description    描述
+@author         wearehere8
+@homepageURL    https://github.com/wearehere8/MUstyles
 ==/UserStyle== */
 
 @-moz-document domain("example.com") {
     /* 在此插入代码... */
-    #b_context{display:none}#b_results,#b_header{width:93vw}#b_results>li{float:left;width:45%;}#b_results>.b_msg,#b_results>.b_ans{float:none}
+    
 }
