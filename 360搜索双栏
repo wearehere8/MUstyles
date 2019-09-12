@@ -8,7 +8,7 @@
 @homepageURL    https://github.com/wearehere8/MUstyles
 ==/UserStyle== */
 
-@-moz-document domain("example.com") {
+@-moz-document domain("so.com") {
     /* 在此插入代码... */
 #side {
     display: none
