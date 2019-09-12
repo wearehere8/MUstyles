@@ -1,0 +1,26 @@
+/* ==UserStyle==
+@name           sogou双栏
+@namespace      sogou two list
+@version        0.0.1
+@license        MIT
+@description    搜狗双栏显示
+@author         wearehere8
+@homepageURL    https://github.com/wearehere8/MUstyles
+==/UserStyle== */
+
+@-moz-document domain("sogou.com") {
+    /* 在此插入代码... */
+    #right {
+    display: none
+}
+#main,
+.results {
+    min-width: 90vw !important;
+    max-width: 90vw !important;
+    padding-right: 0 !important;
+}
+.results > div {
+    float: left;
+    width: 47% !important;
+    margin-right: 25px;
+}
