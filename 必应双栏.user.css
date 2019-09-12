@@ -9,5 +9,9 @@
 
 @-moz-document domain("bing.com") {
     /*主代码*/
-    #b_context{display:none}#b_results,#b_header{width:93vw}#b_results>li{float:left;width:45%;}#b_results>.b_msg,#b_results>.b_ans{float:none}
+    #b_context{display:none}
+    #b_results,#b_header{width:93vw}
+    #b_results>li{float:left;width:45%;}
+    #b_results>.b_msg,
+    #b_results>.b_ans{float:none}
 }
