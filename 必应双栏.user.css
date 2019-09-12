@@ -2,12 +2,12 @@
 @name           bing 双栏
 @namespace      bing two list
 @version        0.0.1
-@license mit
+@license        MIT
 @description    双栏显示bing搜索结果
 @author         wearehere8
 ==/UserStyle== */
 
 @-moz-document domain("bing.com") {
-    /* 在此插入代码... */
+    /*主代码*/
     #b_context{display:none}#b_results,#b_header{width:93vw}#b_results>li{float:left;width:45%;}#b_results>.b_msg,#b_results>.b_ans{float:none}
 }
