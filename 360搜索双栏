@@ -1,0 +1,23 @@
+/* ==UserStyle==
+@name           360搜索双栏
+@namespace      360so two list
+@version        0.0.1
+@license        MIT
+@description    360搜索双栏显示
+@author         wearehere8
+@homepageURL    https://github.com/wearehere8/MUstyles
+==/UserStyle== */
+
+@-moz-document domain("example.com") {
+    /* 在此插入代码... */
+#side {
+    display: none
+}
+#main {
+    width: 90vw !important
+}
+.res-list {float: left;
+            width: 47%;
+            margin-right: 25px;
+}
+}
