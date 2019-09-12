@@ -1,0 +1,55 @@
+/* ==UserStyle==
+@name           google 双栏
+@namespace      google two list
+@version        0.0.1
+@license        MIT
+@description    google双栏显示
+@author         wearehere8
+@homepageURL    https://github.com/wearehere8/MUstyles
+==/UserStyle== */
+
+@-moz-document domain("www.google.com") {
+    /* 在此插入代码... */
+#rhscol {
+    display: none
+}
+#cnt #center_col {
+    width: 90vw !important;
+}
+.g,
+g-section-with-header,
+.xERobd {
+    float: left;
+    width: 47% !important;
+    margin: 0 0 28px 0 !important;
+}
+.mR2gOd {
+    width: 95%
+}
+.COEoid {
+    margin: -4px 0 !important;
+}
+.k2Oeod.eSq3C {
+    right: 18px !important;
+}
+.g > div,
+.g > g-section-with-header {
+    width: 95%;
+}
+.P1usbc {
+    display: none !important
+}
+#tw-container,
+#tw-container ~ .di8g3 {
+    width: 90%
+}
+#brs .med {
+    width: 200px
+}
+#cnt #foot {
+    width: 1px !important
+}
+.vk_c {
+    border: 0px solid #d7e0f1 !important;
+}
+}
